@@ -1,9 +1,9 @@
 ---
 layout: monthly
-banner: In 2022 I started drinking 1th of January and I managed to drink 701 beers, averaging 1.92 beers a day
+banner: In 2015 I started drinking 5th of April and I managed to drink 1 beers, averaging 0 beers a day
 ---
 
-{% for value in site.data.allmy.years['2022'].months %}
+{% for value in site.data.allmy.years['2015'].months %}
   {% cycle 'add row' : '<div class="boxes-tables pure-g">', '', '' %}
   {% include infoboxes.html data=value %}
   {% cycle 'end row' : '', '', '</div>' %}
