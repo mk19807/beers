@@ -1,9 +1,11 @@
 name: Fetch check-ins
 
 on:
-  schedule:
-    - cron: '0 6 * * *'  # 06:00 UTC every morning
   workflow_dispatch:      # allow manual trigger
+  push:
+    paths:
+      - untappd.json
+      - .github/workflows/fetch.yaml
 
 permissions:
   contents: write
@@ -19,13 +21,6 @@ jobs:
           repository: "kyrremann/unparsd"
           latest: true
           fileName: "unparsd"
-
-      - run: |
-          chmod +x unparsd
-          ./unparsd fetch -u kyrremann
-        env:
-          UNTAPPD_CLIENT_ID: ${{ secrets.UNTAPPD_CLIENT_ID }}
-          UNTAPPD_CLIENT_SECRET: ${{ secrets.UNTAPPD_CLIENT_SECRET }}
 
       - run: |
           chmod +x unparsd
