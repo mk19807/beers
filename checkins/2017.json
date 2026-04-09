@@ -782,7 +782,7 @@
     "total_comments": 0
   },
   {
-    "beer_name": "Saigon Export Premium",
+    "beer_name": "Bia Saigon Export Premium",
     "brewery_name": "Sabeco",
     "beer_type": "Lager - Pale",
     "beer_abv": 4.8,
@@ -1693,7 +1693,7 @@
     "bid": 1823237,
     "brewery_id": 259149,
     "photo_url": "https://untappd.s3.amazonaws.com/photo/2017_10_25/c16a458a4cd00d670b7583d1daa832a9_raw.jpg",
-    "global_rating_score": 3.47,
+    "global_rating_score": 3.48,
     "global_weighted_rating_score": 3.48,
     "tagged_friends": "",
     "total_toasts": 0,
@@ -2306,7 +2306,7 @@
     "brewery_id": 7778,
     "photo_url": "https://untappd.s3.amazonaws.com/photo/2017_10_08/5bfa369a770430a23e809744b556e0ce_raw.jpg",
     "global_rating_score": 3.47,
-    "global_weighted_rating_score": 3.56,
+    "global_weighted_rating_score": 3.55,
     "tagged_friends": "",
     "total_toasts": 0,
     "total_comments": 0
@@ -8425,7 +8425,7 @@
     "bid": 57644,
     "brewery_id": 109,
     "photo_url": "https://untappd.s3.amazonaws.com/photo/2017_06_17/fff69664cb9e0668ae09272c2346f91b_raw.jpeg",
-    "global_rating_score": 2.81,
+    "global_rating_score": 2.82,
     "global_weighted_rating_score": 2.83,
     "tagged_friends": "",
     "total_toasts": 0,
@@ -10576,7 +10576,7 @@
   {
     "beer_name": "Palm Spéciale",
     "brewery_name": "Brouwerij Palm",
-    "beer_type": "Red Ale - Ambrée",
+    "beer_type": "Pale Ale - Belgian",
     "beer_abv": 5.2,
     "beer_ibu": 18,
     "comment": "Edit 14-03-19. Volle smaak. Vroeger dol op, met de kennis van nu gewoontjes.",
